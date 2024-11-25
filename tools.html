@@ -7,14 +7,32 @@
   <link rel="stylesheet" href="tools.css">
 </head>
 <body>
-  <header class="header">
+  <!-- <header class="header">
     <a href="https://imgbb.com/"><img src="https://i.ibb.co/PQFT46h/TAG.png" alt="TAG" border="0"></a>
     <h1>Test Automation Tools</h1>
     <p>Explore the top tools for test automation, their supported languages, and key features.</p>
+  </header> -->
+  <header style="display: flex; justify-content: center; align-items: center; padding: 20px 40px; background-color: #4034ac;">
+    <div style="display: flex; align-items: center; gap: 45px;">
+      <div class="logo">
+        <img src="https://i.ibb.co/r0wTBty/TAGNEW.png"  alt="Company Logo" style="height: 100px;">
+      </div>
+      <h1 style="font-family: 'Cooper Black', sans-serif; font-weight: bold; color: #ffffff; font-size: 36px; margin: 0; letter-spacing: 2px; text-transform: uppercase;">
+                Test Automation Guru (TAG)
+      </h1>
+    </div>
   </header>
   
   <main>
-    <table class="tools-table">
+    <h2 style="font-family: 'Arial', sans-serif; font-size: 28px; color: #2C3E50; margin-bottom: 20px;">
+      Test Automation Tools
+    </h2>
+    
+    <!-- Table Description -->
+    <p style="font-family: 'Georgia', serif; font-size: 16px; color: #7f8c8d; margin-bottom: 30px;">
+      This table provides an overview of popular test frameworks commonly used in software development. These frameworks support multiple programming languages and offer powerful features like annotations, parallel test execution, and easy integration with build tools. Whether for functional, regression, or acceptance testing, these frameworks help automate and optimize the testing process across different environments.
+    </p>
+    <table class="tools-table-ta">
       <thead>
         <tr>
           <th>S.No</th>
@@ -108,18 +126,13 @@
         </tr>
       </tbody>
     </table>
-  </main>
-  
-</body>
-
-<body>
-  <header>
-    <h1>Test Automation Frameworks</h1>
-    <p>Comprehensive list of frameworks with official website details</p>
-  </header>
-
-  <div class="table-container">
-    <table class="tools-table">
+    <table class="tools-table-framework">
+      <h2 style="font-family: 'Arial', sans-serif; font-size: 28px; color: #2C3E50; margin-bottom: 20px;">
+        Test Frameworks Overview
+      </h2>
+      <p style="font-family: 'Georgia', serif; font-size: 16px; color: #7f8c8d; margin-bottom: 30px;">
+        The following table provides an overview of popular testing frameworks used in software development. Each framework supports different programming languages and offers unique features to facilitate testing, such as annotations, parallel execution, and integration with build tools. This guide will help you understand the key characteristics of each framework, and how they can benefit your testing process.
+      </p>
       <thead>
         <tr>
           <th>S.No</th>
@@ -150,70 +163,74 @@
         <!-- Add similar rows for the remaining frameworks -->
       </tbody>
     </table>
-  </div>
-
-  <body>
-    <header>
-        <h1>CI/CD Tools Overview</h1>
-    <p>Comprehensive list of CI/CD Tools with official website details</p>
-    </header>
-    <table class="tools-table">
-            <thead>
-                <tr>
-                    <th>S.No</th>
-                    <th>CI/CD Tool</th>
-                    <th>Key Features</th>
-                    <th>Supported Platforms</th>
-                    <th>Best For</th>
-                    <th>Official Website</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>Jenkins</td>
-                    <td>Open-source, extensive plugin ecosystem, supports multiple languages, integration with version control systems (e.g., Git), automated testing, reporting.</td>
-                    <td>Cross-platform (Linux, Windows, macOS)</td>
-                    <td>Large teams, customizable pipelines, and integrating with almost any tool or platform.</td>
-                    <td><a href="https://www.jenkins.io" target="_blank">https://www.jenkins.io</a></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>GitLab CI/CD</td>
-                    <td>Fully integrated with GitLab repositories, supports auto-scaling, advanced pipeline features, Kubernetes integration, built-in monitoring, and dashboards.</td>
-                    <td>Cross-platform (Linux, Windows, macOS)</td>
-                    <td>Teams looking for an all-in-one DevOps solution, version control + CI/CD pipeline management.</td>
-                    <td><a href="https://about.gitlab.com" target="_blank">https://about.gitlab.com</a></td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>CircleCI</td>
-                    <td>Fast execution, cloud or on-premises, easy configuration via YAML, integrations with Docker, Kubernetes, and other tools.</td>
-                    <td>Cloud (SaaS), Docker, Kubernetes</td>
-                    <td>Teams needing fast feedback loops with easy Docker and Kubernetes integration.</td>
-                    <td><a href="https://circleci.com" target="_blank">https://circleci.com"</a></td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Travis CI</td>
-                    <td>Integrates directly with GitHub repositories, supports multi-language builds, easy to configure via .travis.yml, good for open-source projects.</td>
-                    <td>Cloud (SaaS)</td>
-                    <td>Developers and open-source projects with GitHub as their primary code repository.</td>
-                    <td><a href="https://travis-ci.org" target="_blank">https://travis-ci.org</a></td>
-                </tr>
-                <tr>
-                    <td>5</td>
-                    <td>Bamboo</td>
-                    <td>Developed by Atlassian, integrates with Jira, Bitbucket, and other Atlassian tools. Built-in deployment and test automation.</td>
-                    <td>Cross-platform (Linux, Windows, macOS)</td>
-                    <td>Teams using the Atlassian ecosystem for project management and code repositories.</td>
-                    <td><a href="https://www.atlassian.com/software/bamboo" target="_blank">https://www.atlassian.com/software/bamboo</a></td>
-                </tr>
-                <!-- Additional rows can be added similarly -->
-            </tbody>
-        </table>
-    
+    <h2 style="font-family: 'Arial', sans-serif; font-size: 28px; color: #2C3E50; margin-bottom: 20px;">
+      CI/CD Tools Overview
+    </h2>
+    <p style="font-family: 'Georgia', serif; font-size: 16px; color: #7f8c8d; margin-bottom: 30px;">
+      The table below presents a list of popular CI/CD tools used in modern software development. These tools help automate the processes of building, testing, and deploying applications, enabling faster delivery and consistent code quality. With features like integration with version control systems, automated testing, and seamless deployment, these tools streamline the development workflow and enhance collaboration across teams.
+    </p>
+    <table class="tools-table-cicd">
+      <thead>
+          <tr>
+              <th>S.No</th>
+              <th>CI/CD Tool</th>
+              <th>Key Features</th>
+              <th>Supported Platforms</th>
+              <th>Best For</th>
+              <th>Official Website</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>1</td>
+              <td>Jenkins</td>
+              <td>Open-source, extensive plugin ecosystem, supports multiple languages, integration with version control systems (e.g., Git), automated testing, reporting.</td>
+              <td>Cross-platform (Linux, Windows, macOS)</td>
+              <td>Large teams, customizable pipelines, and integrating with almost any tool or platform.</td>
+              <td><a href="https://www.jenkins.io" target="_blank">https://www.jenkins.io</a></td>
+          </tr>
+          <tr>
+              <td>2</td>
+              <td>GitLab CI/CD</td>
+              <td>Fully integrated with GitLab repositories, supports auto-scaling, advanced pipeline features, Kubernetes integration, built-in monitoring, and dashboards.</td>
+              <td>Cross-platform (Linux, Windows, macOS)</td>
+              <td>Teams looking for an all-in-one DevOps solution, version control + CI/CD pipeline management.</td>
+              <td><a href="https://about.gitlab.com" target="_blank">https://about.gitlab.com</a></td>
+          </tr>
+          <tr>
+              <td>3</td>
+              <td>CircleCI</td>
+              <td>Fast execution, cloud or on-premises, easy configuration via YAML, integrations with Docker, Kubernetes, and other tools.</td>
+              <td>Cloud (SaaS), Docker, Kubernetes</td>
+              <td>Teams needing fast feedback loops with easy Docker and Kubernetes integration.</td>
+              <td><a href="https://circleci.com" target="_blank">https://circleci.com"</a></td>
+          </tr>
+          <tr>
+              <td>4</td>
+              <td>Travis CI</td>
+              <td>Integrates directly with GitHub repositories, supports multi-language builds, easy to configure via .travis.yml, good for open-source projects.</td>
+              <td>Cloud (SaaS)</td>
+              <td>Developers and open-source projects with GitHub as their primary code repository.</td>
+              <td><a href="https://travis-ci.org" target="_blank">https://travis-ci.org</a></td>
+          </tr>
+          <tr>
+              <td>5</td>
+              <td>Bamboo</td>
+              <td>Developed by Atlassian, integrates with Jira, Bitbucket, and other Atlassian tools. Built-in deployment and test automation.</td>
+              <td>Cross-platform (Linux, Windows, macOS)</td>
+              <td>Teams using the Atlassian ecosystem for project management and code repositories.</td>
+              <td><a href="https://www.atlassian.com/software/bamboo" target="_blank">https://www.atlassian.com/software/bamboo</a></td>
+          </tr>
+          <!-- Additional rows can be added similarly -->
+      </tbody>
+  </table>
+  </main>
+  
 </body>
+
+
+
+ 
 
   <footer class="footer">
     <p>© 2024 TAG - Test Automation Guru</p>
